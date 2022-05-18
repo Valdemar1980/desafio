@@ -28,6 +28,9 @@ public class DesafiolojadomecanicoApplication implements CommandLineRunner {
 		return encoder;
 	}
 
+	/**
+	 * Insere o primeiro usuario com login no banco H2.
+	 */
 	@Override
 	public void run(String... args) throws Exception {
 		Usuario entidade = new Usuario();
