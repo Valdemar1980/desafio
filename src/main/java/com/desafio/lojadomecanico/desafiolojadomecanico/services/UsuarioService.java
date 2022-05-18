@@ -3,13 +3,13 @@ package com.desafio.lojadomecanico.desafiolojadomecanico.services;
 import java.util.List;
 import java.util.Optional;
 
-import org.hibernate.ObjectNotFoundException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import com.desafio.lojadomecanico.desafiolojadomecanico.domain.Usuario;
+import com.desafio.lojadomecanico.desafiolojadomecanico.exceptions.ObjectNotFoundException;
 import com.desafio.lojadomecanico.desafiolojadomecanico.repositores.UsuarioRepository;
 
 @Service

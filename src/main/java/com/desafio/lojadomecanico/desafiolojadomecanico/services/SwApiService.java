@@ -149,8 +149,6 @@ public class SwApiService {
 		return retorno;
 	}
 	
-	
-	
 	/**
 	 * Recebe String e processa parse para o tipo de objeto valueType.
 	 * 
@@ -166,7 +164,6 @@ public class SwApiService {
 			throw new RuntimeException("Erro ao transformar json em objeto", e);
 		}
 	}
-
 
 	/**
 	 * Instancia objeto para parse.
