@@ -1,14 +1,12 @@
 package com.desafio.lojadomecanico.desafiolojadomecanico.resources;
 
 import java.util.List;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
-
 import com.desafio.lojadomecanico.desafiolojadomecanico.domain.dto.ApiSwapiFilmeDTO;
 import com.desafio.lojadomecanico.desafiolojadomecanico.domain.dto.ApiSwapiPessoaDTO;
 import com.desafio.lojadomecanico.desafiolojadomecanico.domain.dto.ApiSwapiPlanetaDTO;

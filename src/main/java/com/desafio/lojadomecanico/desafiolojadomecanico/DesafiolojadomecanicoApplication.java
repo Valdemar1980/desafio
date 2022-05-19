@@ -7,7 +7,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
-
 import com.desafio.lojadomecanico.desafiolojadomecanico.domain.Usuario;
 import com.desafio.lojadomecanico.desafiolojadomecanico.repositores.UsuarioRepository;
 
@@ -29,7 +28,8 @@ public class DesafiolojadomecanicoApplication implements CommandLineRunner {
 	}
 
 	/**
-	 * Insere o primeiro usuario com login no banco H2.
+	 * Insere o primeiro usuario com login no banco H2,
+	 * Ao subir a aplicação.
 	 */
 	@Override
 	public void run(String... args) throws Exception {

@@ -1,7 +1,6 @@
 package com.desafio.lojadomecanico.desafiolojadomecanico.domain.dto;
 
 import java.util.List;
-
 import lombok.Data;
 
 

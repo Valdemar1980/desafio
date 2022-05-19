@@ -2,10 +2,8 @@ package com.desafio.lojadomecanico.desafiolojadomecanico.domain.dto;
 
 import java.util.ArrayList;
 import java.util.Date;
-
 import com.fasterxml.jackson.annotation.JsonCreator;
 import com.fasterxml.jackson.annotation.JsonProperty;
-
 import lombok.Data;
 
 @Data

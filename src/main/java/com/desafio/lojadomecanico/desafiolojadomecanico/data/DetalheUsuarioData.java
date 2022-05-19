@@ -3,10 +3,8 @@ package com.desafio.lojadomecanico.desafiolojadomecanico.data;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Optional;
-
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
-
 import com.desafio.lojadomecanico.desafiolojadomecanico.domain.Usuario;
 
 public class DetalheUsuarioData implements UserDetails{

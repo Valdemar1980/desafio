@@ -1,14 +1,16 @@
 package com.desafio.lojadomecanico.desafiolojadomecanico.domain.dto;
 
 import java.util.List;
-
 import com.fasterxml.jackson.annotation.JsonCreator;
 import com.fasterxml.jackson.annotation.JsonProperty;
-
 import lombok.Data;
 
 @Data
 public class ApiSwapiFilmeDTO {
+
+	public ApiSwapiFilmeDTO() {
+		super();
+	}
 
 	@JsonCreator
 	public ApiSwapiFilmeDTO(@JsonProperty("titulo") String title, @JsonProperty("episodio_id") Integer episode_id,
